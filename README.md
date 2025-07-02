@@ -16,7 +16,6 @@ If the model is not confident in its prediction (confidence < 60%), it will retu
 - TensorFlow 2.x
 - Keras (via `tensorflow.keras`)
 - OpenCV
-- NumPy
 - Streamlit
 
 
@@ -38,21 +37,20 @@ streamlit run app.py
 
 💡 Features
 
-📦 Lightweight, no pretrained models used
+- 📦 Lightweight, no pretrained models used
 
-🤖 CNN built and trained from scratch on CIFAR-10
+- 🤖 CNN built and trained from scratch on CIFAR-10
 
-🖼️ Upload custom images for classification
+- 🖼️ Upload custom images for classification
 
-🛡️ Fallback logic for low-confidence predictions
+- 🛡️ Fallback logic for low-confidence predictions
 
 # See requirements.txt, but here’s a quick list:
 
--Tensorflow
--opencv-python
--streamlit
--Pillow
-
+- TensorFlow
+- opencv-python
+- Pillow
+- streamlit
 
 
 
