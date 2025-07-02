@@ -19,12 +19,7 @@ If the model is not confident in its prediction (confidence < 60%), it will retu
 - NumPy
 - Streamlit
 
-## 📁 Project Structure
-├── app.py # Streamlit app for image upload & prediction
-├── train_cifar10_model.py # Script to train and save the CNN model
-├── cifar10_model.h5 # Saved TensorFlow model (after training)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+
 
 # How will you run this app
 
